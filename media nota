@@ -1,0 +1,38 @@
+Algoritmo "média de notas"
+
+// Data atual  : 29/09/2022
+Var
+// Seção de Declarações das variáveis 
+nota1:real
+nota2:real
+nota3:real
+nota4:real
+media:Real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ escreva("digite a nota do primeiro bim")
+leia (nota1)
+escreva("digite a nota do segundo bim")
+leia(nota2)
+escreva ("digite a nota do terceiro bim")
+leia(nota3)
+escreva("digite a nota do quarto bim")
+leia (nota4)
+ escreval ((nota1+nota2+nota3+nota4)/4)
+ Media <-((nota1+nota2+nota3+nota4)/4)
+ escreva (media/4)
+ escreval ("a media dos alunos é",(media))
+  se media =10 entao
+    ESCREVA ("parabens,")
+  se media >=6 entao
+  escreval ("aprovado")
+  senao
+  ESCREVAL("REPROVADO")
+
+    fimse
+    fimse
+
+  
+
+Fimalgoritmo
